@@ -1,0 +1,20 @@
+{
+  "main": "main.js",
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.2.2",
+    "d3": "^3.5.17",
+    "express": "^4.15.2",
+    "function-plot": "^1.17.3",
+    "webpack": "^2.3.2"
+  },
+  "productName": "miejsca-zerowe",
+  "name": "miejsca-zerowe",
+  "appVersion": "0.0.3",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "concurrently \"webpack --watch\" \"node server.js\"",
+    "start": "node server.js"
+  }
+}
